@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto"
+                                             xmlns:tools="http://schemas.android.com/tools"
+                                             android:layout_width="match_parent"
+                                             android:background="@drawable/bc"
+                                             android:layout_height="match_parent"
+
+
+>
+    <TextView
+            android:background="@drawable/ll"
+            android:layout_width="match_parent"
+            android:text="NICU Equipments"
+            android:textSize="25dp"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:layout_height="40dp"
+            android:id="@+id/textView13"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0" android:layout_marginTop="0dp"
+            android:layout_alignParentTop="true"/>
+    <TextView
+            android:background="@drawable/back"
+            android:layout_width="43dp"
+            android:text=""
+            android:textSize="25dp"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:layout_height="37dp"
+            android:id="@+id/textView16"
+            android:onClick="backk"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"/>
+    <ScrollView
+            android:id="@+id/ScrollView01"
+                android:layout_width="fill_parent"
+
+                android:layout_below="@+id/textView16"
+                android:layout_height="575dp"
+    >
+        <RelativeLayout
+                android:id="@+id/RelativeLayout01"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+            <LinearLayout
+                    android:id="@+id/LinearLayout01"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="vertical" android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="0dp" android:layout_marginTop="0dp"
+                    android:layout_alignParentTop="true">
+
+                <Button
+                        android:text="Heart/Cardiorespiratory Monitor"
+                        android:layout_width="wrap_content"
+                        android:textSize="18sp"
+                        android:textAllCaps="false"
+                        android:background="@null"
+                        android:layout_height="39dp"
+                        android:id="@+id/button104"
+                        app:layout_constraintStart_toStartOf="parent"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginStart="16dp" android:layout_marginTop="28dp"
+                        android:textStyle="italic"
+                />
+                <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@android:color/darker_gray"/>
+                <Button
+                        android:text="   Blood Pressure Monitor"
+                        android:textAllCaps="false"
+                        android:textStyle="italic"
+                        android:textSize="18sp"
+                        android:layout_width="wrap_content"
+                        android:background="@null"
+                        android:layout_height="44dp"
+                        android:id="@+id/button105"
+                        tools:layout_editor_absoluteX="0dp" android:layout_marginTop="10dp"
+                />
+                <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@android:color/darker_gray"/>
+                <Button
+                        android:text=" Temperature"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" tools:layout_editor_absoluteY="212dp"
+                        android:id="@+id/button106" android:layout_marginStart="8dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        android:background="@null"
+                        android:textAllCaps="false"
+                        android:textStyle="italic"
+                        android:textSize="18sp"
+                        android:layout_marginLeft="8dp"/>
+                <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@android:color/darker_gray"/>
+                <Button
+                        android:text="   Pulse Oximeter"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" tools:layout_editor_absoluteY="257dp"
+                        android:background="@null"
+                        android:textAllCaps="false"
+                        android:textStyle="italic"
+                        android:textSize="18sp"
+                        tools:layout_editor_absoluteX="16dp" android:id="@+id/button107"/>
+                <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@android:color/darker_gray"/>
+                <Button
+                        android:text="   Transcutaneous Oxygen"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" tools:layout_editor_absoluteY="257dp"
+                        android:background="@null"
+                        android:textAllCaps="false"
+                        android:textStyle="italic"
+                        android:textSize="18sp"
+                        tools:layout_editor_absoluteX="16dp"
+                        android:id="@+id/button108"/>
+                <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@android:color/darker_gray"/>
+                <Button
+                        android:text="   Ultrasound"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" tools:layout_editor_absoluteY="358dp"
+                        android:background="@null"
+                        android:textAllCaps="false"
+                        android:textStyle="italic"
+                        android:textSize="18sp"
+                        tools:layout_editor_absoluteX="0dp" android:id="@+id/button109"/>
+
+                <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@android:color/darker_gray"/>
+                <Button
+                        android:text="X-ray"
+                        android:layout_width="68dp"
+                        android:layout_height="34dp" tools:layout_editor_absoluteY="358dp"
+                        android:background="@null"
+                        android:textAllCaps="false"
+                        android:textStyle="italic"
+                        android:textSize="18sp"
+                        tools:layout_editor_absoluteX="0sp"
+                        android:id="@+id/button110"/>
+
+                <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@android:color/darker_gray"/>
+                <Button
+                        android:text="   Computed Tomography"
+                        android:layout_width="wrap_content"
+                        android:layout_height="41dp" tools:layout_editor_absoluteY="446dp"
+                        android:background="@null"
+                        android:textAllCaps="false"
+                        android:textStyle="italic"
+                        android:textSize="18sp"
+                        tools:layout_editor_absoluteX="16dp" android:id="@+id/button111"/>
+                <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@android:color/darker_gray"/>
+                <Button
+                        android:text="   Magnetic Resonance Imaging(MRI)"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" tools:layout_editor_absoluteY="498dp"
+                        android:background="@null"
+                        android:textAllCaps="false"
+                        android:textStyle="italic"
+                        android:textSize="18sp"
+                        tools:layout_editor_absoluteX="16dp" android:id="@+id/button112"/>
+                <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@android:color/darker_gray"/>
+                <Button
+                        android:text="   Endotracheal tube(ET)"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        tools:layout_editor_absoluteX="65dp" android:id="@+id/button113"
+                        android:background="@null"
+                        android:textAllCaps="false"
+                        android:textStyle="italic"
+                        android:textSize="18sp"
+                        app:layout_constraintTop_toBottomOf="parent"/>
+                <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@android:color/darker_gray"/>
+                <Button
+                        android:text="   Respirator/Mechanical Ventilator"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" tools:layout_editor_absoluteY="511dp"
+                        android:background="@null"
+                        android:textAllCaps="false"
+                        android:textStyle="italic"
+                        android:textSize="18sp"
+                        tools:layout_editor_absoluteX="16dp" android:id="@+id/button114"/>
+                <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@android:color/darker_gray"/>
+                <Button
+                        android:text="   Continuous Positive Airway Pressure(CPAP)"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" tools:layout_editor_absoluteY="511dp"
+                        android:background="@null"
+                        android:textAllCaps="false"
+                        android:textStyle="italic"
+                        android:textSize="18sp"
+                        tools:layout_editor_absoluteX="16dp" android:id="@+id/button115"/>
+                <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@android:color/darker_gray"/>
+                <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@android:color/darker_gray"
+                        android:layout_alignStart="@+id/LinearLayout01"/>
+                <Button
+                        android:text="   Extracorporeal Membrane Oxygenation(ECMO)"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" tools:layout_editor_absoluteY="511dp"
+                        android:background="@null"
+                        android:textAllCaps="false"
+                        android:textStyle="italic"
+                        android:textSize="18sp"
+                        android:id="@+id/button116"/>
+
+            </LinearLayout>
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+    <android.support.constraint.Guideline android:layout_width="wrap_content" android:layout_height="wrap_content"
+                                          android:id="@+id/guideline" app:layout_constraintGuide_begin="0dp"
+                                          android:orientation="vertical"/>
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_below="@+id/ScrollView01"
+                  android:layout_height="match_parent">
+
+        <TextView
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="@drawable/home"
+                android:id="@+id/back_to_register_textview1"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@+id/textView13"/>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto"
+                                             xmlns:tools="http://schemas.android.com/tools"
+                                             android:layout_width="match_parent"
+                                             android:background="@drawable/bc"
+                                             android:layout_height="match_parent" android:id="@+id/text_nurse">
+
+    <ImageButton
+            android:layout_width="141dp"
+            android:layout_height="126dp" app:srcCompat="@drawable/terms"
+            android:scaleType="centerInside"
+            android:id="@+id/growth_button" app:layout_constraintStart_toStartOf="parent"
+            android:background="@null"
+            android:layout_marginLeft="16dp" android:layout_marginStart="16dp" android:layout_marginTop="80dp"
+
+            app:layout_constraintTop_toTopOf="parent" android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginRight="8dp"
+            app:layout_constraintHorizontal_bias="0.0"/>
+    <ImageButton
+            android:layout_width="131dp"
+            android:layout_height="129dp" app:srcCompat="@drawable/nicu"
+            android:id="@+id/guide_button" app:layout_constraintStart_toEndOf="@+id/mother-button"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:scaleType="centerInside"
+            app:layout_constraintHorizontal_bias="0.678" android:layout_marginTop="80dp"
+            android:background="@null"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginEnd="24dp" android:layout_marginRight="24dp"/>
+    <TextView
+            android:text="Medical Terms"
+            android:layout_width="105dp"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:textColor="#004481"
+            android:textStyle="bold"
+            android:textSize="26sp"
+            android:id="@+id/text_mother"
+            app:layout_constraintTop_toBottomOf="@+id/growth_button"
+            app:layout_constraintStart_toStartOf="@+id/growth_button"
+            app:layout_constraintEnd_toEndOf="@+id/growth_button" android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp" app:layout_constraintHorizontal_bias="0.0"
+            android:layout_marginTop="8dp"/>
+    <TextView
+            android:text="NICU Equipments"
+            android:layout_width="140dp"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_physician" tools:id="text_physician"
+            android:textColor="#004481"
+            android:textStyle="bold"
+            android:textSize="26sp"
+            app:layout_constraintTop_toBottomOf="@+id/guide_button"
+            android:layout_marginTop="4dp"
+            app:layout_constraintStart_toStartOf="@+id/guide_button"
+            app:layout_constraintEnd_toEndOf="@+id/guide_button"
+            android:layout_marginEnd="16dp" android:layout_marginRight="16dp"
+            app:layout_constraintHorizontal_bias="0.04"/>
+    <ImageButton
+            android:layout_width="123dp"
+            android:layout_height="127dp" app:srcCompat="@drawable/fff"
+            android:id="@+id/experience_button" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/mother-button"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:background="@null"
+            android:scaleType="centerInside"
+            app:layout_constraintVertical_bias="0.43"
+            android:layout_marginBottom="108dp"
+            android:layout_marginStart="8dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="8dp" android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginRight="8dp" app:layout_constraintHorizontal_bias="0.029"/>
+    <TextView
+            android:text="FAQs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView6"
+            android:textColor="#004481"
+            android:textStyle="bold"
+            android:textSize="26sp"
+            app:layout_constraintTop_toBottomOf="@+id/experience_button"
+            app:layout_constraintEnd_toEndOf="@+id/experience_button"
+            app:layout_constraintStart_toStartOf="@+id/experience_button" app:layout_constraintHorizontal_bias="0.533"
+            android:layout_marginTop="12dp"/>
+    <TextView
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/home"
+            android:id="@+id/back_to_register_textview"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+    <TextView
+            android:background="@drawable/ll"
+            android:layout_width="match_parent"
+            android:text="User Guide"
+            android:textSize="30dp"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:layout_height="45dp"
+            android:id="@+id/textView13"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"/>
+    <TextView
+            android:background="@drawable/back"
+            android:layout_width="43dp"
+            android:layout_height="37dp"
+            android:id="@+id/textView16" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            android:layout_marginTop="4dp" app:layout_constraintTop_toTopOf="parent"/>
+</android.support.constraint.ConstraintLayout>

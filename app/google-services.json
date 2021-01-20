@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "947627815436",
+    "firebase_url": "https://neonate-mom.firebaseio.com",
+    "project_id": "neonate-mom",
+    "storage_bucket": "neonate-mom.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:947627815436:android:1e5fed475b9e70fa",
+        "android_client_info": {
+          "package_name": "com.example.anay.kotlinmessenger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "947627815436-u6o76f33rt92equsdntptp8bi5k29tsa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.anay.kotlinmessenger",
+            "certificate_hash": "0b70db90133cada77c0fffe6646b771f2d702173"
+          }
+        },
+        {
+          "client_id": "947627815436-cojout0lkdt0tf9i0cm7jr9ks567nmnm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9qqwG_a6YOXtg5LI1UJFdYasWsgAF0Yg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "947627815436-cojout0lkdt0tf9i0cm7jr9ks567nmnm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

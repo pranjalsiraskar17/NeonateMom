@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.example.anay.kotlinmessenger">
+
+    <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version"/>
+
+    <application
+            android:allowBackup="true"
+            android:icon="@drawable/icon"
+            android:label="@string/app_name"
+            android:roundIcon="@mipmap/launcher"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme">
+        <activity android:name=".gg">
+        </activity>
+        <activity android:name=".Experience1">
+        </activity>
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginActivity">
+        </activity>
+        <activity android:name=".RegisterActivity">
+        </activity>
+        <activity android:name=".RegisterIconActivity">
+        </activity>
+        <activity android:name=".PhysicianActivity">
+        </activity>
+        <activity android:name=".NurseActivity">
+        </activity>
+        <activity android:name=".PediatricianActivity">
+        </activity>
+        <activity android:name=".MotherIconActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN1"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".GrowthActivity">
+        </activity>
+        <activity android:name=".NurseIconActivity">
+        </activity>
+        <activity android:name=".GrowthDisplayActivity">
+        </activity>
+        <activity android:name=".GuideDisplayActivity">
+        </activity>
+        <activity android:name=".GuideActivity">
+        </activity>
+        <activity android:name=".medicaltermsmeaning">
+        </activity>
+        <activity android:name=".NurseGrowthActivity">
+        </activity>
+        <activity android:name=".NurseGrowthGuideExperienceActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN2"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".SettingsActivity">
+        </activity>
+        <activity android:name=".FontActivity">
+        </activity>
+        <activity android:name=".ModeActivity">
+        </activity>
+        <activity android:name=".NurseGuideActivity">
+        </activity>
+        <activity android:name=".Equipments">
+        </activity>
+        <activity android:name=".FAQ">
+        </activity>
+        <activity android:name=".FAQmeaning">
+        </activity>
+        <activity android:name=".equipmentsmeaning">
+        </activity>
+        <activity android:name=".PhysicianGrowthGuideExperienceActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN3"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".PhysicianGuideActivity">
+        </activity>
+        <activity android:name=".Physiciannursemom">
+        </activity>
+        <activity android:name=".Physiciannursedisplay">
+        </activity>
+        <activity android:name=".Physicianmomdisplay">
+        </activity>
+        <activity android:name=".PhysiciangrowthdisplayActivity">
+        </activity>
+        <activity android:name=".upload">
+        </activity>
+        <activity android:name=".uploadvideo">
+        </activity>
+        <activity android:name=".uploadimage">
+        </activity>
+        <activity android:name=".ImageRetrieve">
+        </activity>
+        <activity android:name=".VideoRetrieve">
+        </activity>
+        <activity android:name=".ExpSelector">
+        </activity>
+        <activity android:name=".Image">
+        </activity>
+        <activity android:name=".chooser">
+        </activity>
+        <activity android:name=".chooser1">
+        </activity>
+    </application>
+
+</manifest>
